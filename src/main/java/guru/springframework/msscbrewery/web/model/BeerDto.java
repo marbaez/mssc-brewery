@@ -13,8 +13,8 @@ import java.util.UUID;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-public class BeerDto {
+@Builder(toBuilder = true)
+public class  BeerDto {
 
     private UUID id;
     private String beerName;
